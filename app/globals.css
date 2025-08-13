@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --brand: #007fff; --brand-dark: #004c99; --accent: #FFB347; }
+body { @apply text-gray-800 bg-white; }
+.gradient-bg { background: radial-gradient(circle at 30% 30%, #e6f2ff, transparent 60%), linear-gradient(135deg, #f2f9ff 0%, #ffffff 70%); }

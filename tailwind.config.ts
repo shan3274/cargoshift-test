@@ -1,0 +1,3 @@
+import type { Config } from 'tailwindcss';
+const config: Config = { content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'], theme: { extend: { colors: { brand: { 50: '#f2f9ff', 100: '#e6f2ff', 200: '#bfe0ff', 300: '#99cdff', 400: '#4da7ff', 500: '#007fff', 600: '#0066cc', 700: '#004c99', 800: '#003366', 900: '#001a33' }, accent: { 500: '#FFB347', 600: '#F7A531', 700: '#E9960F' } } } }, plugins: [] };
+export default config;

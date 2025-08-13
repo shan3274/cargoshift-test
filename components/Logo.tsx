@@ -1,0 +1,1 @@
+export default function Logo({ className = 'h-8 w-auto text-brand-600' }: { className?: string }) { return ( <span className={`font-bold tracking-tight text-xl ${className}`}> Cargo<span className="text-brand-500">Shift</span> </span> ); }

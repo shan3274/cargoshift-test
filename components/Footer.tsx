@@ -1,0 +1,2 @@
+import Logo from './Logo';
+export default function Footer() { return ( <footer className="border-t border-gray-200 bg-white"> <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 flex flex-col md:flex-row gap-6 md:items-center justify-between"> <Logo className="text-brand-600" /> <p className="text-sm text-gray-500"> © {new Date().getFullYear()} Cargo Shift. All rights reserved. </p> </div> </footer> ); }

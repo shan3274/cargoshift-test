@@ -1,0 +1,1 @@
+export const siteConfig = { name: 'Cargo Shift', twitter: '@cargoshift', description: 'Optimize every shipment with real-time freight intelligence.' };
